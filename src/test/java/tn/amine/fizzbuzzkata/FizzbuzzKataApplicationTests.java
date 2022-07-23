@@ -23,4 +23,9 @@ class FizzbuzzKataApplicationTests {
         assertEquals("Fizz", Fizzbuzz.play(3));
     }
 
+    @Test
+    void testWithNumberIs6() {
+        assertEquals("Fizz", Fizzbuzz.play(6));
+    }
+
 }
