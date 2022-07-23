@@ -59,7 +59,7 @@ class FizzbuzzKataApplicationTests {
     }
 
     @Test
-    void testWith2Numbers1And3() {
-        assertEquals("1Fizz", Fizzbuzz.play(1, 3));
+    void testWithNumbersFrom1To15() {
+        assertEquals("12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz", Fizzbuzz.play(1, 15));
     }
 }

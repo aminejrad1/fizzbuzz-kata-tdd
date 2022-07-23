@@ -4,14 +4,14 @@ public class Fizzbuzz {
 
     public static String play(int number1, int number2) {
 
-        String value = getStringFromNumber(number1);
+        StringBuilder value = new StringBuilder();
 
-        if(number1!=number2)
-        {
-            value += getStringFromNumber(number2);
+        while (number1 <= number2) {
+            value.append(getStringFromNumber(number1));
+            number1++;
         }
 
-        return value;
+        return value.toString();
     }
 
     public static String getStringFromNumber(int number) {
