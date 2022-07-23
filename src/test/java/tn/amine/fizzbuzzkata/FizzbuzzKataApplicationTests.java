@@ -58,4 +58,8 @@ class FizzbuzzKataApplicationTests {
         assertEquals("12", Fizzbuzz.play(1, 2));
     }
 
+    @Test
+    void testWith2Numbers1And3() {
+        assertEquals("1Fizz", Fizzbuzz.play(1, 3));
+    }
 }
