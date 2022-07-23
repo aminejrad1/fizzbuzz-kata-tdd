@@ -38,4 +38,14 @@ class FizzbuzzKataApplicationTests {
         assertEquals("Buzz", Fizzbuzz.play(5));
     }
 
+    @Test
+    void testWithNumberIs10() {
+        assertEquals("Buzz", Fizzbuzz.play(10));
+    }
+
+    @Test
+    void testWithNumberIs15() {
+        assertEquals("FizzBuzz", Fizzbuzz.play(15));
+    }
+
 }
