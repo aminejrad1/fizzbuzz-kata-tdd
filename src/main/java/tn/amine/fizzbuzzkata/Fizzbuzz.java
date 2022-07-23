@@ -3,7 +3,7 @@ package tn.amine.fizzbuzzkata;
 public class Fizzbuzz {
 
     public static String play(int number) {
-        if(number == 15)
+        if(number % 15 == 0)
             return "FizzBuzz";
 
         if(number % 3 == 0)
